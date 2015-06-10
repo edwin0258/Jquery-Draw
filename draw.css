@@ -1,9 +1,12 @@
 .box{
 	border-style: solid;
-	border-color:white;
 	border-width: 2px;
 	height:8px;
 	width: 2000px;
+}
+.boxd{
+	border-color: white;
+	color: white;
 }
 .inline{
 	display:inline-block;
@@ -14,5 +17,129 @@
 	width: 10px;
 }
 .highlighted{
+	background-color: blue;
+}
+.highlightedgreen{
 	background-color: green;
+	
+}
+.highlightedpurple{
+	background-color: purple;
+}
+.highlightedrandom{
+	background-color: tan;
+}
+.highlightedred{
+	background-color: red;
+	
+}
+.color{
+	display: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.modes{
+	display: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.neon{
+	display: none;
+}
+.glow{
+	background-color: #2C75FF;
+}
+.normal{
+	background-color: tan;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}
+.blue{
+	background-color: blue;
+}
+.purple{
+	background-color: purple;
+}
+.random{
+	background-color: tan;
+}
+
+/*Glow Options */
+.nightcall{
+	background-color: #000410;
+}
+.nightcallb{
+	border-color: #000410;
+}
+.neonpink{
+	background-color: #DD0048;
+	box-shadow: 0px 0px 20px 2px: #DD0048;
+	-moz-box-shadow: 0px 0px 20px 2px #DD0048;
+	-webkit-box-shadow: 0px 0px 20px 2px #DD0048;
+}
+.neongreen{
+	background-color: #87A623;
+	box-shadow: 0px 0px 20px 2px: #87A623;
+	-moz-box-shadow: 0px 0px 20px 2px #87A623;
+	-webkit-box-shadow: 0px 0px 20px 2px #87A623;
+}
+.neonblue{
+	background-color: blue;
+	box-shadow: 0px 0px 20px 2px: green;
+	-moz-box-shadow: 0px 0px 20px 2px green;
+	-webkit-box-shadow: 0px 0px 20px 2px green;
+}
+.neonpurple{
+	background-color: #79005C;
+	box-shadow: 0px 0px 20px 2px: #79005C;
+	-moz-box-shadow: 0px 0px 20px 2px #79005C;
+	-webkit-box-shadow: 0px 0px 20px 2px #79005C;
+}
+.neonyellow{
+	background-color: #E1A000;
+	box-shadow: 0px 0px 20px 2px: #E1A000;
+	-moz-box-shadow: 0px 0px 20px 2px #E1A000;
+	-webkit-box-shadow: 0px 0px 20px 2px #E1A000;
+}
+.glowblue{
+	background-color: #2C75FF;
+	box-shadow: 0px 0px 20px 2px: #2C75FF;
+	-moz-box-shadow: 0px 0px 20px 2px #2C75FF;
+	-webkit-box-shadow: 0px 0px 20px 2px #2C75FF;
+
+}
+.glowgreen{
+	background-color: #87A623;
+	box-shadow: 0px 0px 20px 2px: #87A623;
+	-moz-box-shadow: 0px 0px 20px 2px #87A623;
+	-webkit-box-shadow: 0px 0px 20px 2px #87A623;
+
+}
+.glowpink{
+	background-color: #DD0048;
+	box-shadow: 0px 0px 20px 2px: #DD0048;
+	-moz-box-shadow: 0px 0px 20px 2px #DD0048;
+	-webkit-box-shadow: 0px 0px 20px 2px #DD0048;
+}
+.glowpurple{
+	background-color: #79005C;
+	box-shadow: 0px 0px 20px 2px: #79005C;
+	-moz-box-shadow: 0px 0px 20px 2px #79005C;
+	-webkit-box-shadow: 0px 0px 20px 2px #79005C;
+}
+.glowyellow{
+	background-color: #E1A000;
+	box-shadow: 0px 0px 20px 2px: #E1A000;
+	-moz-box-shadow: 0px 0px 20px 2px #E1A000;
+	-webkit-box-shadow: 0px 0px 20px 2px #E1A000;
+}
+/*Eraser*/
+.eraser{
+	background-color: none;
 }
